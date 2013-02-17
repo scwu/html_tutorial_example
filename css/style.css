@@ -53,6 +53,7 @@ h2 {
 div.description p {
 	font-family: 'Open Sans', sans-serif;
 }
+
 div.links ul {
 	width: 600px;
 	margin: 0;
@@ -61,10 +62,24 @@ div.links ul {
 	padding-left: 0;
 }
 
+#icons {
+	list-style-type: none;
+	overflow:auto;
+}
 div.links li{
 	display: inline-block;
-	padding-left: 27px;
-	padding-right: 27px;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 100px;
+}
+
+div.links img {
+	height: 35px;
+	display: block;
+}
+
+div.links img:hover {
+	opacity: 0.6;
 }
 
 a.url {
