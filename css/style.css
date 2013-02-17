@@ -1,0 +1,62 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background: url('../images/cover2.jpg') no-repeat center center fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+div.container {
+	background: rgba(255,255,255, 0.3);
+  width:600px;
+  height:400px;
+  display: block;
+	float: right;
+	margin-top: 10%;
+	margin-right: 5%;
+	overflow: hidden;
+}
+
+div.container h1, h2, div.description {
+	margin-left: 25px;
+	margin-right: 25px;
+	color: white;
+}
+
+h1 {
+	font-size: 60px;
+	line-height: 0px;
+	font-weight: 400;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 20px;
+	line-height: 30px;
+	font-weight: 200;
+}
+
+div.links ul {
+	width: 600px;
+	margin: 0;
+	margin-left: 25px;
+	padding-top: 10px;
+	padding-left: 0;
+}
+
+div.links li{
+	display: inline-block;
+	padding-left: 27px;
+	padding-right: 27px;
+}
+
+
