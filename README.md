@@ -3,19 +3,19 @@ Directions for deploying to your UPenn site
 1. scp your files to eniac
 	```scp -r directory_from/ {pennkey}@eniac.seas.upenn.edu:```
 
-- ssh into your upenn account
+2. ssh into your upenn account
 	```ssh {pennkey}@eniac.seas.upenn.edu```
 
-- Create an html directory in your home directory:
+3. Create an html directory in your home directory:
 	```mkdir ~/html```
 
-- Move all files from folder you moved to html folder:
+4. Move all files from folder you moved to html folder:
 	```mv /directory_from/* html/```
 
--  Make sure the permissions on both your html and home directory allow world excecution:
+5.  Make sure the permissions on both your html and home directory allow world excecution:
 	```chmod a+x ~/ ~/html```
 
--  Once the pages are in your new directory, make sure the files are world readable:
+6.  Once the pages are in your new directory, make sure the files are world readable:
 	```find ~/html -type d -print | xargs chmod a+rx```
 	```find ~/html -type f -print | xargs chmod a+r```
 
