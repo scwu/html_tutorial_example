@@ -12,10 +12,10 @@ ssh <pennkey>@eniac.seas.upenn.edu
 4.Move all files from folder you moved to html folder:
 		mv /directory_from/* html/
 
-4. Make sure the permissions on both your html and home directory allow world excecution:
+5. Make sure the permissions on both your html and home directory allow world excecution:
     chmod a+x ~/ ~/html
 
-5. Toss some cool pages into your new directory and make sure the files are world readable:
+6. Toss some cool pages into your new directory and make sure the files are world readable:
     find ~/html -type d -print | xargs chmod a+rx
     find ~/html -type f -print | xargs chmod a+r
 
