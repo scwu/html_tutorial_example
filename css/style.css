@@ -36,6 +36,7 @@ h1 {
 	font-size: 60px;
 	line-height: 0px;
 	font-weight: 400;
+	font-family: 'Arvo', serif;
 }
 
 h2 {
@@ -43,8 +44,12 @@ h2 {
 	font-weight: 20px;
 	line-height: 30px;
 	font-weight: 200;
+	font-family: 'Arvo', serif;
 }
 
+div.description p {
+	font-family: 'Open Sans', sans-serif;
+}
 div.links ul {
 	width: 600px;
 	margin: 0;
