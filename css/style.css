@@ -17,9 +17,9 @@ body {
 
 div.container {
 	background: rgba(255,255,255, 0.3);
-  	width:600px;
-  	height:440px;
-  	display: block;
+  width:600px;
+  height:440px;
+  display: block;
 	float: right;
 	margin-top: 9%;
 	margin-right: 5%;
@@ -44,7 +44,6 @@ h1 {
 
 h2 {
 	font-size: 30px;
-	font-weight: 20px;
 	line-height: 30px;
 	font-weight: 200;
 	font-family: 'Arvo', serif;
